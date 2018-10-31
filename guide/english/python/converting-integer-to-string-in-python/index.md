@@ -39,6 +39,20 @@ print("Hello, I am " + str(age) + " years old")
 ```
 <a href='https://repl.it/Jz8Q/0' target='_blank' rel='nofollow'>Run code on repl.it</a>
 
+Literal String Interpolation or "f-strings":
+
+Python 3.6 (and later) allows strings to be [formatted with minimal syntax](https://www.python.org/dev/peps/pep-0498/#id23).
+
+```py
+name = "Xochitl"
+age = 45
+
+f'Hello, my name is {name}, and I am {age} years young.'
+
+# Output
+# 'Hello, my name is Xochitl, and I am 45 years young.'
+```
+
 Print `1 2 3 4 5 6 7 8 9 10` using a single string
 ```py
 result = ""
